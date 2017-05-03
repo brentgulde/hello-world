@@ -1,5 +1,8 @@
+
 $('#app').html(`
+
 <div class="loader"></div>
+
 	`);
 setTimeout(function(){
 x();	
@@ -20,12 +23,8 @@ let html = `
 <h1>${res.Year} </h1>
 <h1>${res.Language} </h1>
 <h1>${res.Actors} </h1>
-<font color ="black">
+<font color ="white">
 </center>
 `;
 $('#app').html(html);
 });
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RH3OxVFvTeg" frameborder="0" allowfullscreen></iframe>
-}
-
