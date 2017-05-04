@@ -1,13 +1,6 @@
 
-$('#app').html(`
+$('#app').html(``);
 
-<div class="loader"></div>
-
-	`);
-setTimeout(function(){
-x();	
-
-}, 777);
 
 function x(){
 $.ajax({
