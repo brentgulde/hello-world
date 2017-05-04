@@ -21,3 +21,4 @@ let html = `
 `;
 $('#app').html(html);
 });
+}
