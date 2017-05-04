@@ -4,7 +4,7 @@ $('#app').html(``);
 
 function x(){
 $.ajax({
-	url:"http://www.omdbapi.com/?t=logan"
+	url:"http://www.omdbapi.com/?t=x-men"
 }).done(function(res){
 console.log(res);
 let html = `
@@ -16,7 +16,7 @@ let html = `
 <h1>${res.Year} </h1>
 <h1>${res.Language} </h1>
 <h1>${res.Actors} </h1>
-<font color ="white">
+<font color ="black">
 </center>
 `;
 $('#app').html(html);
