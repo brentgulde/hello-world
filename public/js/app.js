@@ -9,7 +9,7 @@ $.ajax({
 console.log(res);
 let html = `
 <center>
-<font color="white">
+<font color="black">
 <h1>${res.Title } </h1> 
 <h3>${res.Plot}</h3>
 <img src="${res.Poster}"/>
